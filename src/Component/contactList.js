@@ -11,7 +11,7 @@ const ContactList=()=> {
     dispatch(getCantacts())
   }, []);
     const contacts = useSelector((state)=>state.contactsReducer.contacts)
-    console.log(contacts)
+    // console.log(contacts)
   return (
     <>
         {/* {contacts.map((contact,key) =>{

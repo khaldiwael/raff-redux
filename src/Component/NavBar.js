@@ -9,7 +9,7 @@ import ContactCards from './ContactCards';
 function NavBar() {
   return (
     <>
-        <ul>
+        <ul className='navBar'>
           <li><Link to='/'>home</Link></li>
           <li><Link to='/contacts'>contacts</Link></li>
           <li><Link to='/addContact'>add Contact</Link></li>
